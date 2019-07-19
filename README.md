@@ -53,5 +53,15 @@ npm install --save-dev style-loader css-loader
     }
 
 ```
-##关于倒入
-              
+##关于导入json数据
+```
+config.json中的数据
+{
+  "greetText": "Hi there and greetings from JSON!"
+}
+
+在js文件导入
+var config = require('./config.json');
+
+config.greetText
+```
